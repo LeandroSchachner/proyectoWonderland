@@ -1,7 +1,9 @@
 * {
   padding: 0;
   margin: 0; }
+
 /* NAVEGACION */ 
+
 .nav-item a {
   background: color #5a5e5a;
   text-decoration: none;
@@ -24,7 +26,7 @@
 
 /* BOTONES */
 
-.add__button {
+.addToCart{
   border: 0;
   line-height: 2.5;
   padding: 0 20px;
@@ -44,17 +46,52 @@
               inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-.add__button:hover {
+.addToCart:hover {
   background-color: #fa775d;
 
 }
 
-.add__button:active {
+.addToCart:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
               inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+/* ESTILO DE CARRITO */
 
+.shopping-cart-items {
+  margin: 100px 300px;
+    
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+.shopping-cart-total {
+  min-height: 96px;
+}
+.shopping-cart-total {
+  padding: 0 720px;
+}
 /* LOGO WONDERLAND */
 
 .logo__principal {
