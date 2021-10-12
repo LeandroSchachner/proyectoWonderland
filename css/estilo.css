@@ -57,7 +57,9 @@
 }
 
 /* ESTILO DE CARRITO */
-
+.shopping-cart {
+  max-width: 100%;
+}
 .shopping-cart-items {
   margin: 100px 300px;
     
